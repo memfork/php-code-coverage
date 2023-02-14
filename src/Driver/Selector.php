@@ -14,7 +14,7 @@ use SebastianBergmann\CodeCoverage\NoCodeCoverageDriverAvailableException;
 use SebastianBergmann\CodeCoverage\NoCodeCoverageDriverWithPathCoverageSupportAvailableException;
 use SebastianBergmann\Environment\Runtime;
 
-final class Selector
+class Selector implements SelectorInterface
 {
     /**
      * @throws NoCodeCoverageDriverAvailableException
